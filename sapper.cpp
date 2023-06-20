@@ -208,7 +208,7 @@ int main()
  //nc_print(10);
  srand(time(NULL));
  //print_map(20);
- //cout << bomb_count(9,9);
+ 
  screen(0,0);
  getch();
  endwin();
