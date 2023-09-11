@@ -45,7 +45,6 @@ int array_exam(int y, int x)
  return sapper_map.at(y).at(x);
 }
 
-
 int bomb_count(int y, int x)
 {
  
