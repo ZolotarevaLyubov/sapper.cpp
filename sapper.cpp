@@ -36,7 +36,6 @@ void fill_map()
  }
 }
 
-
 int array_exam(int y, int x)
 {
  if ((y < 0 || x < 0) || (y >= MAP_Y || x >= MAP_X))
