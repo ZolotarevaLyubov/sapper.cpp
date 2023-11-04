@@ -3,6 +3,7 @@
 #include<ncurses.h>
 using namespace std;
 
+
 const int MAP_Y = 10;
 const int MAP_X = 10;
 array<array<int,10>,10> sapper_map;
