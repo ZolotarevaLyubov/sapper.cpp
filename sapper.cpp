@@ -8,7 +8,6 @@ const int MAP_X = 10;
 array<array<int,10>,10> sapper_map;
 array<array<int,10>,10> open_cell;
 
-
 void bomb_map(int bomb)
 {
  int rand_y, rand_x;
