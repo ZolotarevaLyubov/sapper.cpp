@@ -3,12 +3,10 @@
 #include<ncurses.h>
 using namespace std;
 
-
 const int MAP_Y = 10;
 const int MAP_X = 10;
 array<array<int,10>,10> sapper_map;
 array<array<int,10>,10> open_cell;
-
 
 void bomb_map(int bomb)
 {
@@ -21,7 +19,6 @@ void bomb_map(int bomb)
    rand_x = rand() % 10;
   }
   while(sapper_map.at(rand_y).at(rand_x) == 1);
-  
   
   sapper_map.at(rand_y).at(rand_x) = 1;
  }
@@ -76,7 +73,6 @@ void print_map(int bomb)
 
 void open (int y, int x)
 {
- 
  
  if((y < 0 || x < 0) || (y >= MAP_Y || x >= MAP_X))
   return;
